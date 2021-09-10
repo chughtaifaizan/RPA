@@ -129,9 +129,9 @@ data23.to_excel('Individual Investments.xlsx')
 
 # now downling Business cases
 '''
-!!! Importtant for a single business case downloading we are using below code
-other wise for multiple business caeses use the bottom most code after uncommenting
-and comment the below code
+!!! Importtant for a single business case downloading we are using below code which is commented
+other wise for multiple business caeses use the bottom most code is used.
+
 '''
 ##bus=soup2.find('td',{'class':'left sorting_2'})
 ##p=driver.find_element_by_link_text(bus.text)
