@@ -1,0 +1,13 @@
+tasks:
+  entrypoint:
+    command:
+      - python
+      - with_rpa_sel.py
+
+artifactsDir: output
+ignoreFiles:
+  - .gitignore
+PATH:
+  - .
+PYTHONPATH:
+  - .
